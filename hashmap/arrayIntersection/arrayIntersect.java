@@ -6,7 +6,7 @@ public class arrayIntersect {
 if (map.containsKey(arr[i])) {
     int val= map.get(arr[i]);
     map.put(arr[i] , val+1);
-} else {
+} else {    //hello
     map.put(arr[i] , 1);
 }
         }

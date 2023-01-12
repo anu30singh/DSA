@@ -1,5 +1,5 @@
 
-
+//queues basics
 public class queues {
    private int data [];
    private int front;//indexes 

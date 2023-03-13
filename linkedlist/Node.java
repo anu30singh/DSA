@@ -1,4 +1,4 @@
-package linkedlist;
+//package linkedlist;
 
 public class Node <T> {           //we can use genrics here as abhi bs int store kar skta
     T data;

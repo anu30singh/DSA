@@ -1,4 +1,4 @@
-package linkedlist;
+//package linkedlist;
 import java.util.Scanner;
 public class linkedlistuse {
     // public static Node <Integer> createLinkedlist () {

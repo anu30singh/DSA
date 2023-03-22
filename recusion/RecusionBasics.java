@@ -17,19 +17,33 @@ public class RecusionBasics {
     }
     //printing 1 to n using backtracking
     public static void print_backtrack(int i , int n) {
+
         if (i<1) return;
         print_backtrack(i-1, n);
         System.out.println(i);
     }
-
+    //parametrized recursion for sum of n natural nums
+    public static void sumOfN (int i , int sum) { 
+        if (i<1) {
+            System.out.println(sum);
+             return;
+        }
+        sumOfN(i-1, sum+i);
+    }
+    public static int summation(int n) {
+        if(n==0) return 0;
+        return n+ summation(n-1);
+    }
     public static void main(String[] args) {
         Scanner s = new Scanner (System.in);
         
         int n = s.nextInt();
-        int i=n;
+       // int i=n;
+        //sumOfN(n,0);
         //print(i, n);
       //  printnum(i, n);
-      print_backtrack(i, n);
+     // print_backtrack(i, n);
+     System.out.println (summation(n));
     }
 
 }

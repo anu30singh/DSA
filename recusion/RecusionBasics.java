@@ -38,6 +38,7 @@ public class RecusionBasics {
         Scanner s = new Scanner (System.in);
         
         int n = s.nextInt();
+        s.close();
        // int i=n;
         //sumOfN(n,0);
         //print(i, n);

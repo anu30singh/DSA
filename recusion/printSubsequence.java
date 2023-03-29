@@ -28,3 +28,4 @@ public class printSubsequence {
         printF(0 ,dem, arr , 3);
     }
 }
+//TC (2^n)

@@ -16,7 +16,8 @@ public class Fibonacci {
             // tab hum a ko print karlege 
             a=b;
             b=c;
+            System.out.print(a + " ");
         }
-        System.out.println(a);
+        //System.out.println(a);
     }
 }

@@ -12,3 +12,6 @@ public class staticVariable {
         System.out.println("from main");
     }
 }
+
+
+
